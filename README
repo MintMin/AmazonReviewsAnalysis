@@ -8,3 +8,10 @@ Goals for 1st Week:
 1. Download data locally
 2. Create individual jupyter notebook on github to include data exploration work
 
+Goals for 2nd Week:
+1. Peer Code Review - due Tuesday 8 PM
+2. Data Exploration and Visualization:
+  -Nic: Duplicates, ProductId, Helpfulness
+  -QianTi: UserId, ProductId, Text Analysis
+  -Michael: Time, UserId/ProductId
+3. Data Preprocessing
