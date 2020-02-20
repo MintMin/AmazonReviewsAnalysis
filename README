@@ -8,6 +8,7 @@ Goals for 1st Week:
 1. Download data locally
 2. Create individual jupyter notebook on github to include data exploration work
 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Goals for 2nd Week:
 1. Peer Code Review - due Tuesday 8 PM
 2. Data Exploration and Visualization:
@@ -15,3 +16,21 @@ Goals for 2nd Week:
   -QianTi: UserId, ProductId, Text Analysis
   -Michael: Time, UserId/ProductId
 3. Data Preprocessing
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Goals for 2nd Week:
+1. Peer Code Review 
+  - due Wednesday ?PM (maybe 4pm?)
+  - write comments for others in <Code Review>
+2. Model Prototype
+  - research existing sentimental analysis models and build a simple prototype 
+2. Data Exploration 
+  - Consider the potential types of bad input for the model (ex: neutral reviews)
+  - Further insights on NLP & Tokenization
+  - Summerize findings/insights in the <Insights on Dataset>
+
++-+-+-+-+-+-+-Model Objectives-+-+-+-+-+-+-+
+Input: a review/summary/both from the dataset
+Output: Binary sentimental results --- positive/negative
+Compare the model results with actual ratings 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
