@@ -1,1 +1,15 @@
 
+Michael's Week1&2 ProductID Analysis
+
+Conclusion 1: Data from ***1999 to 2002*** is not significant enough to impact overall model (e.g. 1999 total reviews are only 5, 
+all scoring their products 5 stars). 
+
+Conclusion 2: Scores don't appear to fluctuate based on ***month*** compared to overall scores. 
+The hypothesis was that with shopping seasons (e.g. Xmas in December, Black Friday in November, etc.) 
+there would be an uptick in variance as uncommon or newcoming consumers purchase items they don't typically purchase, 
+and therefore the spread of Scores would be larger compared to the average std. However, 
+the standard deviation deviates a mere +0.05 from overall standard deviation in December (the largest std).
+Strangely enough, November (e.g. Thanksgiving, Black Friday) appear to deviate less than overall standard deviation by -0.03. 
+While not a strong measure of variation, it possibly warrants further investigation as it suggests data for November from 1999 
+to 2012 is more uniform compared to data overall.We can also try a lineplot for standard deviation based on year AND month 
+to see if over time standard deviation changes as Amazon becomes an internet phenomena
