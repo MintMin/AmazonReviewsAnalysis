@@ -13,3 +13,11 @@ Strangely enough, November (e.g. Thanksgiving, Black Friday) appear to deviate l
 While not a strong measure of variation, it possibly warrants further investigation as it suggests data for November from 1999 
 to 2012 is more uniform compared to data overall.We can also try a lineplot for standard deviation based on year AND month 
 to see if over time standard deviation changes as Amazon becomes an internet phenomena
+
+Nic's Week1&2 Analysis
+
+Conculsion 1: The time (hour) of each review is not important. Although, there is an interesting relationship with reviews from Jan-Feb and Nov-Dec being inputted at 4 pm, while reviews from Mar-Oct being inputted at 5 pm.
+
+Conclusion 2: There are many duplicate reviews that have different productIds. Take Greenies for example. This product can be seen as a parent, with every personalization option (Greenies for small dogs, medium dogs, big dogs, senior dogs, etc.) as its children. The way our database is set up, all these children have their own, unique, product Ids. However, they all point to the reviews of the parent.
+
+Conclusion 3: The best way to get rid of duplicate reviews is to understand the purpose of our model. In this case, we want our model to provide sentiment analysis. That means that the only things that are important are the reviews themselves (summary and text), and their scores. 
